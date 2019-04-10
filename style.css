@@ -136,11 +136,52 @@ nav{
     }
 }
 
+/* ###########  Services #######*/
+.services{
+    background: var(--main-Black);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
+  }
+  .card {
+    flex: 0 0 200px;
+    margin: 10px auto;
+    border: 1px solid var(--main-Text);
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    border-radius: 20px;
+    color: var(--main-Text);
+  } 
+  .card img {
+    max-width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text button{
+      background: var(--main-Red);
+      border: none;
+      color: var(--main-Text);
+      font-weight: bold;
+      padding:0.2rem;
+      margin-top:0.4rem;
+  }
+  .card .text button:hover{
+      background: rgb(209, 97, 74);
+      cursor: pointer;
+  }
 
 
 
 
 
+
+ 
+  
 
 
 
